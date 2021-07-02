@@ -1,0 +1,70 @@
+
+	           --------Docker---------
+ docker-compose up -d --build    сборка docker
+ docker-compose up -d  запуск docker
+ docker-compose stop   остановка
+ sudo vim /etc/hosts  (:q! exit  :wq save and exit)  редактирование hosts
+ docker exec -ti *********** /bin/bash    вход в контейнер (в основном это app)
+ docker ps    статус всех контейнеров  
+   след шаг >  composer install   ||  composer update  это установка vendor
+   >  php artisan key:generate      это генерация ключа для laravel
+   >  php artisan migrate
+   >  php artisan db:seed
+   >  php artisan  tinker
+
+     docker exec -ti 9f6a292cdb1f /bin/bash
+
+ php artisan cache:clear
+ php artisan route:clear
+ php artisan config:clear
+ php artisan view:clear
+
+
+		 ----------Git---------
+ сделай git fetch --all 
+ git checkout ****
+ git merge ****
+ git push origin *****
+
+ git stash save
+ git stash apply
+
+		----------Sudo------------
+  sudo chmod 777 -R /****.** 
+
+
+		    ------WP------
+Alex                    -wp login 
+OG7QZntOmUBuJ9$s*X      -wp password
+
+
+
+	----------imagemin-pngquant-------------
+npm install imagemin-pngquant@5.0.1 --save
+npm install pngquant-bin@3.1.1 --save
+
+
+----------------- 
+tree
+
+
+--------------node nvm ----------
+nvm install v14.15.4
+nvm install v12.13.0
+
+
+
+
+------------- watch limite --------
+echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
+
+
+
+------  counter timer down ------------
+https://codepen.io/danieloprado/pen/aObYYj
+
+
+
+--------------hosts--------------------
+sudo nano /etc/hosts
+
