@@ -68,3 +68,11 @@ https://codepen.io/danieloprado/pen/aObYYj
 --------------hosts--------------------
 sudo nano /etc/hosts
 
+
+------------- MySQL Workbench -----------
+sudo apt update
+sudo apt upgrade
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.15-1_all.deb
+sudo apt install ./mysql-apt-config_0.8.15-1_all.deb
+sudo apt update
+sudo apt install mysql-workbench-community
