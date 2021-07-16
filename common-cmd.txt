@@ -76,3 +76,13 @@ wget https://dev.mysql.com/get/mysql-apt-config_0.8.15-1_all.deb
 sudo apt install ./mysql-apt-config_0.8.15-1_all.deb
 sudo apt update
 sudo apt install mysql-workbench-community
+
+
+-------------------------------------------
+https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04
+-------------------------------------------
+
+----------- Installing MySQL --------------
+sudo apt install mysql-server
+sudo mysql_secure_installation
+sudo mysql
