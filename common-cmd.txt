@@ -92,3 +92,13 @@ mysql> UPDATE user SET plugin='mysql_native_password' WHERE User='root';
 mysql> FLUSH PRIVILEGES;
 mysql> exit;
 ------
+
+
+------------ Vue cli spa -----------------
+npm install -g vue-cli
+vue init webpack-simple vue-spa
+npm install --save-dev vue-router
+------------------------------------------
+
+------------ axios ---------------
+npm install --save-dev axios
