@@ -84,3 +84,7 @@ npm install --save-dev axios
 
 ----------- composer new project --------
 composer create-project laravel/laravel laravel_SPA
+
+--------------
+https://linuxize.com/post/how-to-add-directory-to-path-in-linux/
+-------------
