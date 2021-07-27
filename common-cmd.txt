@@ -88,3 +88,6 @@ composer create-project laravel/laravel laravel_SPA
 --------------
 https://linuxize.com/post/how-to-add-directory-to-path-in-linux/
 -------------
+-----------------------------
+php -S localhost:8000
+------------------------------
