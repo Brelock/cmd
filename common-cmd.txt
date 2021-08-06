@@ -107,3 +107,4 @@ laravel
 - dir: database/migrations -> create_posts_table  ---- adding row in table post
 - php artisan migrate
 - php artisan make:model Post
+- php artisan make:controller API/PostController --api
