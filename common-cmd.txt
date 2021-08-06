@@ -91,3 +91,8 @@ https://linuxize.com/post/how-to-add-directory-to-path-in-linux/
 -----------------------------
 php -S localhost:8000
 ------------------------------
+
+---------------- zsh -------------
+-- teame ---
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+------------------------------------
