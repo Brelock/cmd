@@ -113,8 +113,9 @@ laravel
 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
 
 ----------------------------------------------
-rm -rf ~/.config/JetBrains/PhpStorm2021.2/eval
-rm ~/.config/JetBrains/PhpStorm2021.1/options/other.xml
-rm -rf ~/.local/share/JetBrains/consentOptions
-rm -rf ~/.java/.userPrefs
+
 -----------------------------------------------
+
+
+mysql -h 127.0.0.1 -P 3306 -u root -p
+
