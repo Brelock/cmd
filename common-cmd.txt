@@ -41,6 +41,10 @@ npm install imagemin-pngquant@5.0.1 --save
 npm install pngquant-bin@3.1.1 --save
 
 --------------node nvm ----------
+sudo apt install curl 
+curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+source ~/.profile  
+
 nvm install v14.15.4
 nvm install v12.13.0
 
