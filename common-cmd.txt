@@ -117,7 +117,8 @@ laravel
 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
 
 ----------------------------------------------
-
+switch php version 
+https://ostechnix.com/how-to-switch-between-multiple-php-versions-in-ubuntu/
 -----------------------------------------------
 
 
