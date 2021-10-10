@@ -147,7 +147,14 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ---------switch PHP version ------------
 https://ostechnix.com/how-to-switch-between-multiple-php-versions-in-ubuntu/
 
+$ sudo add-apt-repository -y ppa:ondrej/php
+$ sudo apt update
+$ sudo apt install php5.6   // new
 
+$ sudo a2dismod php7.2   // old
 
+$ sudo a2enmod php5.6   // new
 
+$ sudo update-alternatives --set php /usr/bin/php5.6
+--------------------------------------------------------
 
