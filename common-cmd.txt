@@ -36,9 +36,12 @@ sudo chmod 777 -R /****.**
 Alex                    -wp login 
 OG7QZntOmUBuJ9$s*X      -wp password
 
+
 ----------imagemin-pngquant-------------
 npm install imagemin-pngquant@5.0.1 --save
 npm install pngquant-bin@3.1.1 --save
+
+
 
 --------------node nvm ----------
 sudo apt install curl 
@@ -48,11 +51,19 @@ source ~/.profile
 nvm install v14.15.4
 nvm install v12.13.0
 
+
+
+
 ------------- watch limite --------
 echo fs.inotify.max_user_watches=524288 | sudo tee -a /etc/sysctl.conf && sudo sysctl -p
 
+
+
 ------  counter timer down ------------
 https://codepen.io/danieloprado/pen/aObYYj
+
+
+
 
 ------------- MySQL Workbench -----------
 sudo apt update
@@ -62,8 +73,12 @@ sudo apt install ./mysql-apt-config_0.8.15-1_all.deb
 sudo apt update
 sudo apt install mysql-workbench-community
 
--------------------------------------------
+
+
+-----------------LAMP  ------------------
 https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-20-04
+
+
 -------------------------------------------
 
 ----------- Installing MySQL --------------
@@ -75,26 +90,40 @@ mysql> USE mysql;
 mysql> UPDATE user SET plugin='mysql_native_password' WHERE User='root';
 mysql> FLUSH PRIVILEGES;
 mysql> exit;
+
+
+mysql -h 127.0.0.1 -P 3306 -u root -p
 ------
+
+
 
 ------------ Vue cli spa -----------------
 npm install -g vue-cli
 vue init webpack-simple vue-spa
 npm install --save-dev vue-router
-------------------------------------------
+
+
+
 
 ------------ axios ---------------
 npm install --save-dev axios
 
+
+
 ----------- composer new project --------
 composer create-project laravel/laravel laravel_SPA
+
 
 --------------
 https://linuxize.com/post/how-to-add-directory-to-path-in-linux/
 -------------
+
+
 -----------------------------
 php -S localhost:8000
-------------------------------
+php artisan serve
+-----------------------------
+
 
 ---------------- zsh -------------
 -- teame ---
@@ -102,7 +131,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ------------------------------------
 
 
-laravel
+---------- laravel -------------
 - new project create
 - new database create
 - change .env
@@ -114,13 +143,11 @@ laravel
 - php artisan make:controller API/PostController --api
 
 
-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
 
-----------------------------------------------
-switch php version 
+---------switch PHP version ------------
 https://ostechnix.com/how-to-switch-between-multiple-php-versions-in-ubuntu/
------------------------------------------------
 
 
-mysql -h 127.0.0.1 -P 3306 -u root -p
+
+
 
